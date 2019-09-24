@@ -13,30 +13,32 @@ struct LandmarkDetail: View {
     var landmark: Landmark
     
     var body: some View {
-        VStack {
-            MapView(coordinate: landmark.locationCoordinate)
-                .edgesIgnoringSafeArea(.top)
-                .frame(height: 300)
+        ScrollView {
+            VStack {
+                MapView(coordinate: landmark.locationCoordinate)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height: 300)
 
-            CircleImage(image: landmark.image)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+                CircleImage(image: landmark.image)
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
 
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                HStack(alignment: .top) {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
+                VStack(alignment: .leading) {
+                    Text("Turtle Rock")
+                        .font(.title)
+                    HStack(alignment: .top) {
+                        Text("Joshua Tree National Park")
+                            .font(.subheadline)
+                        Spacer()
+                        Text("California")
+                            .font(.subheadline)
+                    }
                 }
-            }
-            .padding()
+                .padding()
 
-            Spacer()
-        }
+                Spacer()
+            }
+        }.edgesIgnoringSafeArea(.top)
     }
 }
 

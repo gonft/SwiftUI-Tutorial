@@ -15,6 +15,9 @@
 		E98C49942339BF0E00200280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98C49922339BF0E00200280 /* LaunchScreen.storyboard */; };
 		E98C499F2339BF0E00200280 /* SwiftUI_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C499E2339BF0E00200280 /* SwiftUI_TutorialTests.swift */; };
 		E98C49AA2339BF0E00200280 /* SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49A92339BF0E00200280 /* SwiftUI_TutorialUITests.swift */; };
+		E98C49BA2339C12F00200280 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49B92339C12F00200280 /* LandmarkDetail.swift */; };
+		E98C49BC2339C19200200280 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49BB2339C19200200280 /* CircleImage.swift */; };
+		E98C49BE2339C26F00200280 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49BD2339C26F00200280 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E98C49A52339BF0E00200280 /* SwiftUI-TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98C49A92339BF0E00200280 /* SwiftUI_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialUITests.swift; sourceTree = "<group>"; };
 		E98C49AB2339BF0E00200280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98C49B92339C12F00200280 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		E98C49BB2339C19200200280 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E98C49BD2339C26F00200280 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		E98C49862339BF0C00200280 /* SwiftUI-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E98C49B82339C12300200280 /* UI */,
+				E98C49B72339C0FC00200280 /* Supporting Views */,
 				E98C49872339BF0C00200280 /* AppDelegate.swift */,
 				E98C49892339BF0C00200280 /* SceneDelegate.swift */,
 				E98C498B2339BF0C00200280 /* ContentView.swift */,
@@ -134,6 +142,23 @@
 				E98C49AB2339BF0E00200280 /* Info.plist */,
 			);
 			path = "SwiftUI-TutorialUITests";
+			sourceTree = "<group>";
+		};
+		E98C49B72339C0FC00200280 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				E98C49BB2339C19200200280 /* CircleImage.swift */,
+				E98C49BD2339C26F00200280 /* MapView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		E98C49B82339C12300200280 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E98C49B92339C12F00200280 /* LandmarkDetail.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98C49BA2339C12F00200280 /* LandmarkDetail.swift in Sources */,
+				E98C49BE2339C26F00200280 /* MapView.swift in Sources */,
 				E98C49882339BF0C00200280 /* AppDelegate.swift in Sources */,
 				E98C498A2339BF0C00200280 /* SceneDelegate.swift in Sources */,
 				E98C498C2339BF0C00200280 /* ContentView.swift in Sources */,
+				E98C49BC2339C19200200280 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

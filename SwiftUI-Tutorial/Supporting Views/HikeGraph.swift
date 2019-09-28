@@ -53,7 +53,7 @@ struct HikeGraph: View {
                         overallRange: overallRange)
                     .colorMultiply(self.color)
                 }
-                .offset(x: 0, y: proxy.size.height * heightRatio)
+                .offset(x: 0, y: proxy.size.height * heightRatio * 0.5)
             }
         }
     }

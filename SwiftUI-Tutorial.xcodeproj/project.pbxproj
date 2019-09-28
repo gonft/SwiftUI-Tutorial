@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9083F3A233F403400A538C1 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9083F39233F403400A538C1 /* Badge.swift */; };
+		E9083F3C233F406100A538C1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9083F3B233F406100A538C1 /* HexagonParameters.swift */; };
 		E98C49882339BF0C00200280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49872339BF0C00200280 /* AppDelegate.swift */; };
 		E98C498A2339BF0C00200280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49892339BF0C00200280 /* SceneDelegate.swift */; };
 		E98C498C2339BF0C00200280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C498B2339BF0C00200280 /* ContentView.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9083F39233F403400A538C1 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		E9083F3B233F406100A538C1 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		E98C49842339BF0C00200280 /* SwiftUI-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98C49872339BF0C00200280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98C49892339BF0C00200280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +191,8 @@
 			children = (
 				E98C49BB2339C19200200280 /* CircleImage.swift */,
 				E98C49BD2339C26F00200280 /* MapView.swift */,
+				E9083F39233F403400A538C1 /* Badge.swift */,
+				E9083F3B233F406100A538C1 /* HexagonParameters.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98C49DC2339C7C900200280 /* Data.swift in Sources */,
+				E9083F3A233F403400A538C1 /* Badge.swift in Sources */,
 				E98C49BA2339C12F00200280 /* LandmarkDetail.swift in Sources */,
 				E98C49BE2339C26F00200280 /* MapView.swift in Sources */,
 				E98C49DF2339C7F100200280 /* Landmark.swift in Sources */,
@@ -391,6 +398,7 @@
 				E98C49E62339DD7F00200280 /* UserData.swift in Sources */,
 				E98C498A2339BF0C00200280 /* SceneDelegate.swift in Sources */,
 				E98C498C2339BF0C00200280 /* ContentView.swift in Sources */,
+				E9083F3C233F406100A538C1 /* HexagonParameters.swift in Sources */,
 				E98C49BC2339C19200200280 /* CircleImage.swift in Sources */,
 				E98C49E22339C8D700200280 /* LandmarkRow.swift in Sources */,
 				E98C49E42339CAB300200280 /* LandmarkList.swift in Sources */,

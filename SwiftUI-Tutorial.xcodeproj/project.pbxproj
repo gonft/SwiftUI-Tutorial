@@ -171,6 +171,7 @@
 		E9083F4C233F81A800A538C1 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		E9083F4E233F81D300A538C1 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		E9083F50233FA6B000A538C1 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		E97BFD3723409A67005426C8 /* WatchLandmarks Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchLandmarks Extension.entitlements"; sourceTree = "<group>"; };
 		E98C49842339BF0C00200280 /* SwiftUI-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98C49872339BF0C00200280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98C49892339BF0C00200280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -456,6 +457,7 @@
 		E9E6651F234072D800D9BC88 /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E97BFD3723409A67005426C8 /* WatchLandmarks Extension.entitlements */,
 				E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */,
 				E9E665572340759800D9BC88 /* WatchMapView.swift */,
 				E9E66520234072D800D9BC88 /* ContentView.swift */,
@@ -1105,8 +1107,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WatchLandmarks Extension/WatchLandmarks Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VQY4LY36X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchLandmarks Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1128,8 +1132,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WatchLandmarks Extension/WatchLandmarks Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VQY4LY36X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchLandmarks Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

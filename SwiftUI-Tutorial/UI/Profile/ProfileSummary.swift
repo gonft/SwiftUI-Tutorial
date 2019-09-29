@@ -52,7 +52,6 @@ struct ProfileSummary: View {
             VStack(alignment: .leading) {
                 Text("Recent Hikes")
                     .font(.headline)
-            
                 HikeView(hike: hikeData[0])
             }
         }

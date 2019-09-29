@@ -60,6 +60,7 @@
 		E9E665082340643E00D9BC88 /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9E665052340643E00D9BC88 /* charleyrivers_feature.jpg */; };
 		E9E665092340643E00D9BC88 /* stmarylake_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9E665062340643E00D9BC88 /* stmarylake_feature.jpg */; };
 		E9E6650A2340643E00D9BC88 /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9E665072340643E00D9BC88 /* turtlerock_feature.jpg */; };
+		E9E6650C23406E8D00D9BC88 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6650B23406E8D00D9BC88 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		E9E665052340643E00D9BC88 /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers_feature.jpg; sourceTree = "<group>"; };
 		E9E665062340643E00D9BC88 /* stmarylake_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake_feature.jpg; sourceTree = "<group>"; };
 		E9E665072340643E00D9BC88 /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock_feature.jpg; sourceTree = "<group>"; };
+		E9E6650B23406E8D00D9BC88 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +313,7 @@
 			children = (
 				E9E664FC2340603000D9BC88 /* PageViewController.swift */,
 				E9E664FF2340607800D9BC88 /* PageView.swift */,
+				E9E6650B23406E8D00D9BC88 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				E9E664F023402B1F00D9BC88 /* CategoryRow.swift in Sources */,
 				E9083F49233F48A200A538C1 /* HikeGraph.swift in Sources */,
 				E98C49BE2339C26F00200280 /* MapView.swift in Sources */,
+				E9E6650C23406E8D00D9BC88 /* PageControl.swift in Sources */,
 				E9E665022340615000D9BC88 /* FeatureCard.swift in Sources */,
 				E9083F45233F482C00A538C1 /* HikeView.swift in Sources */,
 				E9083F47233F487D00A538C1 /* Hike.swift in Sources */,

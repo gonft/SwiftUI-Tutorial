@@ -98,6 +98,8 @@
 		E9E66553234073BE00D9BC88 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98C49C12339C78D00200280 /* twinlake.jpg */; };
 		E9E66554234073BE00D9BC88 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98C49C22339C78D00200280 /* umbagog.jpg */; };
 		E9E665562340743600D9BC88 /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */; };
+		E9E665582340759800D9BC88 /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E665572340759800D9BC88 /* WatchMapView.swift */; };
+		E9E6655923408B2600D9BC88 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C49E32339CAB300200280 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +234,7 @@
 		E9E6652F234072D900D9BC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E66530234072D900D9BC88 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
+		E9E665572340759800D9BC88 /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */,
+				E9E665572340759800D9BC88 /* WatchMapView.swift */,
 				E9E66520234072D800D9BC88 /* ContentView.swift */,
 				E9E66522234072D800D9BC88 /* HostingController.swift */,
 				E9E66524234072D800D9BC88 /* ExtensionDelegate.swift */,
@@ -759,8 +763,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E6653D2340739000D9BC88 /* Landmark.swift in Sources */,
+				E9E665582340759800D9BC88 /* WatchMapView.swift in Sources */,
 				E9E665402340739000D9BC88 /* Profile.swift in Sources */,
 				E9E665422340739000D9BC88 /* LandmarkRow.swift in Sources */,
+				E9E6655923408B2600D9BC88 /* LandmarkList.swift in Sources */,
 				E9E66523234072D800D9BC88 /* HostingController.swift in Sources */,
 				E9E6653E2340739000D9BC88 /* UserData.swift in Sources */,
 				E9E6653C2340739000D9BC88 /* Data.swift in Sources */,

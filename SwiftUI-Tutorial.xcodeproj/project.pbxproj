@@ -97,6 +97,7 @@
 		E9E66552234073BE00D9BC88 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98C49C92339C78D00200280 /* turtlerock.jpg */; };
 		E9E66553234073BE00D9BC88 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98C49C12339C78D00200280 /* twinlake.jpg */; };
 		E9E66554234073BE00D9BC88 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E98C49C22339C78D00200280 /* umbagog.jpg */; };
+		E9E665562340743600D9BC88 /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +231,7 @@
 		E9E6652D234072D900D9BC88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9E6652F234072D900D9BC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E66530234072D900D9BC88 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +453,7 @@
 		E9E6651F234072D800D9BC88 /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E9E665552340743600D9BC88 /* WatchLandmarkDetail.swift */,
 				E9E66520234072D800D9BC88 /* ContentView.swift */,
 				E9E66522234072D800D9BC88 /* HostingController.swift */,
 				E9E66524234072D800D9BC88 /* ExtensionDelegate.swift */,
@@ -764,6 +767,7 @@
 				E9E66521234072D800D9BC88 /* ContentView.swift in Sources */,
 				E9E66527234072D800D9BC88 /* NotificationController.swift in Sources */,
 				E9E6653F2340739000D9BC88 /* Hike.swift in Sources */,
+				E9E665562340743600D9BC88 /* WatchLandmarkDetail.swift in Sources */,
 				E9E665412340739000D9BC88 /* CircleImage.swift in Sources */,
 				E9E66525234072D800D9BC88 /* ExtensionDelegate.swift in Sources */,
 				E9E66529234072D800D9BC88 /* NotificationView.swift in Sources */,
